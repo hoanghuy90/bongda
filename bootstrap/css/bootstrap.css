@@ -2,6 +2,7 @@
  * Bootstrap v2.3.2
  *
  * Copyright 2012 Twitter, Inc
+
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
@@ -781,6 +782,7 @@ h4 {
 
 h5 {
   font-size: 14px;
+  margin-top: -5px;
 }
 
 h6 {
@@ -5777,7 +5779,7 @@ a.badge:focus {
 }
 
 .progress {
-  height: 20px;
+  height: 40px;
   margin-bottom: 20px;
   overflow: hidden;
   background-color: #f7f7f7;
@@ -6165,3 +6167,5 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+
