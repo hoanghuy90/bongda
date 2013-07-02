@@ -161,8 +161,10 @@
     width: 370px;
   }
   .span3 {
-    width: 270px;
-  }
+    width: 360px;
+  
+    margin-left: 5px;
+}
   .span2 {
     width: 170px;
   }
@@ -1107,3 +1109,12 @@
     overflow: visible !important;
   }
 }
+.div_left {
+    float: left;
+    margin-right:10px;
+}
+.div_right {
+    text-align: justify;
+    
+}
+
