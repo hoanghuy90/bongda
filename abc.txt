@@ -1,1 +1,2 @@
-abcd
+tao file: gedit
+tao thu muc: mkdir 
