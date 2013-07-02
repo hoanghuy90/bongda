@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0199)http://static.novanet.vn/adloader.htm?zone=1075&url=http%3A%2F%2Fibongda.vn%2F&host=ibongda.vn&ref=https%3A%2F%2Fwww.google.com.vn%2F&hl=1&br=3&brver=27&osname=1&osver=0&width=300&height=250&time=398 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><meta style="visibility: hidden !important; display: block !important; width: 0px !important; height: 0px !important; border-style: none !important;"><embed id="__IDM__" type="application/x-idm-downloader" width="1" height="1" style="visibility: hidden !important; display: block !important; width: 1px !important; height: 1px !important; border-style: none !important; position: absolute !important; top: 0px !important; left: 0px !important;"></meta><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+</head>
+<body style="margin:0; padding:0;">
+    <div>
+        <script language="javascript" type="text/javascript">
+            function GetParameterByName(name) {
+                var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+                return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+            }
+            function CreateCookie(name,value,days) {
+				if (days) {
+					var date = new Date();
+					date.setTime(date.getTime()+(days*24*60*60*1000));
+					var expires = "; expires="+date.toGMTString();
+				}
+				else var expires = "";
+				document.cookie = name+"="+value+expires+"; path=/";
+			}
+
+			function ReadCookie(name) {
+				var nameEQ = name + "=";
+				var ca = document.cookie.split(';');
+				for(var i=0;i < ca.length;i++) {
+					var c = ca[i];
+					while (c.charAt(0)==' ') c = c.substring(1,c.length);
+					if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+				}
+				return null;
+			}
+
+			function EraseCookie(name) {
+				CreateCookie(name,"",-1);
+			}
+            var id = 232698067156158;
+            var nnc = ReadCookie("nnc");
+			var cookieEnable = '';
+			var newNNC = 'false';
+            if(nnc > 0) {
+                cookieEnable = 'true';
+            } else {
+				EraseCookie('nnc');
+                CreateCookie('nnc', id.toString(), 90);
+                nnc = ReadCookie("nnc");
+                if (nnc == id) {
+					newNNC = 'true';
+                    cookieEnable = 'true';
+				}
+                else
+                    cookieEnable = 'false';
+            }
+            var width = GetParameterByName("width");
+            var height = GetParameterByName("height");
+            var url = 'http://' + 'static.novanet.vn/adview.htm' + document.URL.substring(document.URL.indexOf('?')) + "&nnc=" + nnc + '&cenable=' + cookieEnable + '&newnnc=' + newNNC;
+            var i = '<iframe src="' + url + '" scrolling="no" frameborder="0" allowtransparency="true" style="margin:0;padding:0;" width="' +
+                width + '" height="' + height + '"></iframe>';
+            document.write(i);
+        </script><iframe src="adview.htm" scrolling="no" frameborder="0" allowtransparency="true" style="margin:0;padding:0;" width="300" height="250"></iframe>
+    </div>
+
+
+</body></html>

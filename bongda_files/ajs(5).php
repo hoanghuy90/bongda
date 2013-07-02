@@ -1,0 +1,17 @@
+var OX_210891c9 = '';
+OX_210891c9 += "<"+"script type=\'text/javascript\'><"+"!--//<"+"![CDATA[\n";
+OX_210891c9 += "var m3_u = (location.protocol==\'https:\'?\'https://123linkad.vn/www/delivery/ajs.php\':\'http://123linkad.vn/www/delivery/ajs.php\');\n";
+OX_210891c9 += "var m3_r = Math.floor(Math.random()*99999999999);\n";
+OX_210891c9 += "if (!document.MAX_used) document.MAX_used = \',\';\n";
+OX_210891c9 += "document.write (\"<"+"scr\"+\"ipt type=\'text/javascript\' src=\'\"+m3_u);\n";
+OX_210891c9 += "document.write (\"?zoneid=3380\");\n";
+OX_210891c9 += "document.write (\'&amp;cb=\' + m3_r);\n";
+OX_210891c9 += "if (document.MAX_used != \',\') document.write (\"&amp;exclude=\" + document.MAX_used);\n";
+OX_210891c9 += "document.write (document.charset ? \'&amp;charset=\'+document.charset : (document.characterSet ? \'&amp;charset=\'+document.characterSet : \'\'));\n";
+OX_210891c9 += "document.write (\"&amp;loc=\" + escape(window.location));\n";
+OX_210891c9 += "if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n";
+OX_210891c9 += "if (document.context) document.write (\"&context=\" + escape(document.context));\n";
+OX_210891c9 += "if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n";
+OX_210891c9 += "document.write (\"\'><"+"\\/scr\"+\"ipt>\");\n";
+OX_210891c9 += "//]]>--><"+"/script><"+"noscript><"+"a href=\'http://tigerclick.net/www/delivery/ck.php?oaparams=2__bannerid=215__zoneid=165__cb=198ca46e58__oadest=http%3A%2F%2F123linkad.vn%2Fwww%2Fdelivery%2Fck.php%3Fn%3Da5d67069%26amp%3Bcb%3DINSERT_RANDOM_NUMBER_HERE\' target=\'_blank\'><"+"img src=\'http://123linkad.vn/www/delivery/avw.php?zoneid=3380&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a5d67069\' border=\'0\' alt=\'\' /><"+"/a><"+"/noscript><"+"div id=\'beacon_198ca46e58\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://tigerclick.net/www/delivery/lg.php?bannerid=215&amp;campaignid=30&amp;zoneid=165&amp;loc=1&amp;referer=http%3A%2F%2Fibongda.vn%2F&amp;cb=198ca46e58\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+document.write(OX_210891c9);
