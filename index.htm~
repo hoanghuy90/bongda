@@ -79,44 +79,33 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="./index.html">Nhận định</a>
+                <a href="./index.html">Bóng đá Anh </a>
               </li>
               <li class="active">
-                <a href="./getting-started.html">Tường thuật</a>
+                <a href="./getting-started.html">Bóng đá TBN</a>
               </li>
               <li class="">
-                <a href="./scaffolding.html">Tin tức</a>
+                <a href="./scaffolding.html">Bóng đá Ý </a>
               </li>
               <li class="">
-                <a href="./base-css.html">Kết quả</a>
+                <a href="./base-css.html">Bóng đá Đức </a>
               </li>
               <li class="">
-                <a href="./components.html">Lịch thi đấu</a>
+                <a href="./components.html">Châu Âu</a>
               </li>
               <li class="">
-                <a href="./javascript.html">Tỷ lệ</a>
+                <a href="./javascript.html">Việt Nam </a>
               </li>
               <li class="">
-                <a href="./customize.html">Thống kê</a>
+                <a href="./customize.html">Thế giới</a>
               </li>
 			  <li class="">
-                <a href="./customize.html">Video clip</a>
+                <a href="./customize.html">Hậu trường</a>
               </li>
 			  <li class="">
-                <a href="./customize.html">Ảnh bóng đá</a>
+                <a href="./customize.html">Chuyển nhượng</a>
               </li>
-			  <li class="">
-                <a href="./customize.html">Game dự đoán</a>
-              </li>
-			  <li class="">
-                <a href="./customize.html">Danh bạ</a>
-              </li>
-			  <li class="">
-                <a href="./customize.html">Xem tivi</a>
-              </li>
-			  <li class="">
-                <a href="./customize.html">Báo giá quảng cáo</a>
-              </li>
+			 
             </ul>
           </div>
         </div>
@@ -503,14 +492,63 @@
     					</div>
   				</div>
 			</div>
-		</div><!--span4-->
+		</div><!--span4--><!--tab menu -->
+		
+			<div class="span4"><!--tab menu-->
+			<div class="tabbable"> <!-- Only required for left/right tabs -->
+  				<ul class="nav nav-tabs">
+    					<li class="active"><a href="#tab3" data-toggle="tab">Đọc nhiều nhất</a></li>
+    					<li><a href="#tab4" data-toggle="tab">Comments nhiều nhất </a></li>
+					
+  				</ul>
+  				<div class="tab-content">
+    					<div class="tab-pane active" id="tab3">
+						
+      						<div class="span3">
+							<h5><a href="#">Cập nhật chuyển nhượng mùa Hè sáng 2/7</a></h5>
+							<div class="div_left">			
+								<img class="right" src="img/anhnho1.jpg" alt=""></img>
+							</div>			
+							<div class="div_right">			
+								<p>Paulinho khóc trong buổi công bố sẽ ký với Tottenham, Arsenal đón tân binh đầu tiên, Nolito rời 						Benfica sang...</p>
+							</div>
+							<h5><a href="#">Chelsea chi 30 triệu bảng cộng Torres để đổi lấy El Shaarawy</a></h5>
+							<div class="div_left">			
+								<img class="right" src="img/anhnho2.jpg" alt=""></img>
+							</div>			
+							<div class="div_right">			
+								<p>Tờ SportMediaSet đưa tin Chelsea đã đẩy thương vụ chiêu mộ tiền đạo Stephan El Shaarawy lên tầm cao 					mới...<p>
+							</div>
+							<h5><a href="#">Tổng hợp CHUYỂN NHƯỢNG mùa Hè ngày 1/7</a></h5>
+							<div class="div_left">			
+								<img class="right" src="img/anhnho3.jpg" alt=""></img>
+							</div>			
+							<div class="div_right">			
+								<p>Thiago Silva thừa nhận được Barca liên hệ, Real đồng ý bán Kaka cho Sao Paulo, Milan có thể 				bán...<p>
+							</div>
+							<h5><a href="#">10 vụ chuyển nhượng "bom tấn" được chờ đợi Hè này</a></h5>
+							<div class="div_left">			
+								<img class="right" src="img/anhnho4.jpg" alt=""></img>
+							</div>			
+							<div class="div_right">			
+								<p>Thị trường chuyển nhượng Hè đã chính thức mở cửa hôm nay, chúng ta cùng chờ đợi một mùa Hè...<p>			
+							</div>			
+						</div>
+    					</div>
+    					<div class="tab-pane" id="tab4">
+      						<p>Howdy, I'm in Section 2.</p>
+    					</div>
+  				</div>
+			</div>
+		</div><!--span4--><!--tab menu -->
+
 		<div class="span4">
 			<div class="progress progress-danger">
   					<div class="bar" style="width: 100%"><h4>Video</h4></div>
 					
 				</div>
 			<div class="span3">
-			<iframe width="360" height="315" src="//www.youtube.com/embed/dSIoq1uMFqM" frameborder="0" allowfullscreen></iframe>	
+			<iframe width="300" height="200" src="//www.youtube.com/embed/jaJumD-0uFM" frameborder="0" allowfullscreen></iframe>
 			</div><!--span3-->	
 			<div class="span3">
 			<iframe width="360" height="315" src="//www.youtube.com/embed/dSIoq1uMFqM" frameborder="0" allowfullscreen></iframe>
@@ -536,75 +574,74 @@
           <div class="row-fluid">
             <div class="span2">
 		<div class="progress progress-danger">
-  					<div class="bar" style="width: 100%"><h4>Bóng đá</h4></div>
+  					<div class="bar" style="width: 100%"><h4>Bóng đá Anh </h4></div>
 					
 		</div>
               <ul>
-			  <li><a href="#">Lịch thi đấu bóng đá</a></li>
-			  <li><a href="#">Kết quả bóng đá</a></li>
-			  <li><a href="#">Tỷ lệ kèo độ bóng đá</a></li>
-			  <li><a href="#">Link sopcast</a></li>
-			  <li><a href="#">Bóng đá 24h</a></li>
+			  <li><a href="#">Giải ngoại hạng</a></li>
+			  <li><a href="#">BXH - Lịch thi đấu </a></li>
+			  <li><a href="#">Carling cup </a></li>
+			  <li><a href="#">Tin khác </a></li>
+			  <li><a href="#">Cúp FA </a></li>
 			  </ul>
             </div><!--/span-->
             <div class="span2">
              <div class="progress progress-danger">
-  					<div class="bar" style="width: 100%"><h4>Bóng đá</h4></div>
+  					<div class="bar" style="width: 100%"><h4>Bóng đá TBN</h4></div>
 					
 		</div>
               <ul>
-			  <li><a href="#">Lịch thi đấu bóng đá</a></li>
-			  <li><a href="#">Kết quả bóng đá</a></li>
-			  <li><a href="#">Tỷ lệ kèo độ bóng đá</a></li>
-			  <li><a href="#">Link sopcast</a></li>
-			  <li><a href="#">Bóng đá 24h</a></li>
+			  <li><a href="#">La Liga </a></li>
+			  <li><a href="#">BXH - Lịch thi đấu </a></li>
+			  <li><a href="#">Segunda D1 </a></li>
+			  <li><a href="#">Cúp nhà vua </a></li>
+			  <li><a href="#">Tin khác </a></li>
 			  </ul>
             </div><!--/span-->
             <div class="span2">
              <div class="progress progress-danger">
-  					<div class="bar" style="width: 100%"><h4>Bóng đá</h4></div>
+  					<div class="bar" style="width: 100%"><h4>Bóng đá Ý </h4></div>
 					
 		</div>
               <ul>
-			 <li><a href="#">Lịch thi đấu bóng đá</a></li>
-			  <li><a href="#">Kết quả bóng đá</a></li>
-			  <li><a href="#">Tỷ lệ kèo độ bóng đá</a></li>
-			  <li><a href="#">Link sopcast</a></li>
-			  <li><a href="#">Bóng đá 24h</a></li>
+			 <li><a href="#">Seria A </a></li>
+			  <li><a href="#">BXH - Lịch thi đấu </a></li>
+			  <li><a href="#">Seria B</a></li>
+			  <li><a href="#">Cúp quốc gia </a></li>
+			  <li><a href="#">Tin khác </a></li>
 			  </ul>
             </div><!--/span-->
         
          
             <div class="span2">
              <div class="progress progress-danger">
-  					<div class="bar" style="width: 100%"><h4>Bóng đá</h4></div>
+  					<div class="bar" style="width: 100%"><h4>Bóng đá Đức </h4></div>
 					
 		</div>
               <ul>
-			 <li><a href="#">Lịch thi đấu bóng đá</a></li>
-			  <li><a href="#">Kết quả bóng đá</a></li>
-			  <li><a href="#">Tỷ lệ kèo độ bóng đá</a></li>
-			  <li><a href="#">Link sopcast</a></li>
-			  <li><a href="#">Bóng đá 24h</a></li>
+			 <li><a href="#">Bundesliga </a></li>
+			  <li><a href="#">BXH - Lịch thi đấu</a></li>
+			  <li><a href="#">Cúp quốc gia</a></li>
+			  <li><a href="#">Tin khác</a></li>
+			  
 			  </ul>
             </div><!--/span-->
             <div class="span2">
               <div class="progress progress-danger">
-  					<div class="bar" style="width: 100%"><h4>Bóng đá</h4></div>
+  					<div class="bar" style="width: 100%"><h4>Châu Âu </h4></div>
 					
 		</div>
               <ul>
 				
-			  <li><a href="#">Lịch thi đấu bóng đá</a></li>
-			  <li><a href="#">Kết quả bóng đá</a></li>
-			  <li><a href="#">Tỷ lệ kèo độ bóng đá</a></li>
-			  <li><a href="#">Link sopcast</a></li>
-			  <li><a href="#">Bóng đá 24h</a></li>
+			  <li><a href="#">Champions Leagues </a></li>
+			  <li><a href="#">Eropa Leagues </a></li>
+			  <li><a href="#">Tin khác</a></li>
+			 
 			  </ul>
             </div><!--/span-->
             <div class="span2">
               <div class="progress progress-danger">
-  					<div class="bar" style="width: 100%"><h4>Bóng đá</h4></div>
+  					<div class="bar" style="width: 100%"><h4>Việt Nam </h4></div>
 					
 		</div>
               <ul>
@@ -627,16 +664,11 @@
 
     <footer class="footer">
       <div class="container">
-        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <ul class="footer-links">
-          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Issues</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/blob/master/CHANGELOG.md">Changelog</a></li>
-        </ul>
+      <p> © BÁO BÓNG ĐÁ - TRANG THÔNG TIN ĐIỆN TỬ TỔNG HỢP. Giấy phép số 265/GP-TTĐT cấp ngày 20/12/2010.</p>
+<p>Tổng biên tập: Nguyễn Văn Phú. Phó Tổng biên tập: Vũ Trung Thành, Thạc Thị Thanh Thảo.</p>
+<p>Trụ sở: Tầng 6+7 tòa nhà Licogi 13, đường Khuất Duy Tiến, quận Thanh Xuân, Hà Nội.</p>
+<p>Điện thoại: (84.4) 35541188, (84.4) 35541199   |   Fax: (84.4) 35539898   |   Email: toasoan@bongdaplus.vn   |   Liên hệ Quảng cáo: 0963 88888 3.</p>
+
       </div>
     </footer>
 	
