@@ -143,8 +143,10 @@
     width: 970px;
   }
   .span9 {
-    width: 870px;
-  }
+    width: 800px;
+  
+    margin-left: 50px;
+}
   .span8 {
     width: 770px;
   }
@@ -1109,4 +1111,13 @@
     overflow: visible !important;
   }
 }
+.div_left {
+    float: left;
+    margin-right:10px;
+}
+.div_right {
+    text-align: justify;
+    
+}
+
 
