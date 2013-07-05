@@ -149,7 +149,11 @@
 }
   .span8 {
     width: 770px;
-  }
+  
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
   .span7 {
     width: 670px;
   }
@@ -1131,6 +1135,7 @@
     text-align: justify;
     
 }
+
 
 
 
