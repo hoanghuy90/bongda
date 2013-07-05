@@ -6219,18 +6219,48 @@ color: #6D670F;
     text-align: center;
     color: #005580;
 }
-.social{
+.share{
     width:100%;
-    float: left
+    float: left;
+    margin-bottom: 10px;
+    background-color:#eee;
 }
-.social >ul >li {
+.share >ul >li {
     color:red;
     float: left;
     padding:10 30;
     
 }
-
-
+.trang{
+height:20px;
+}
+.chuyen.muc h4{
+    
+   background-color: #f5f5f5;
+    padding:1 2 2 20;   
+    border-radius:5px;
+   margin-top: 30px;
+}
+.chuyen.muc.con{
+    
+      
+    padding:1 2 2 20;
+    border: 1px solid #eee;
+    margin-top: -10px;  
+    border-radius:5px;
+}
+.submenu >ul >li {
+    
+    color:#ffffff;
+    padding:4 20 0 20;
+    float:left; 
+}
+.submenu {
+    margin:-25 0 15;
+    background-color:#111111; 
+    height:25px;
+    
+}
 
 
 
